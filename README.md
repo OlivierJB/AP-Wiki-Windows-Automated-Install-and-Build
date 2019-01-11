@@ -6,9 +6,12 @@ Download file, right click and select "Run with Powershell"
 Notes:
 - Tested successfully only on win10
 - Incompatible with win8.1
-- Can be run on top of existing cygwin install
+- Can be run on top of existing cygwin install (eg with previous cygwin Ardupilot sitl build) 
+- If ~/ardupilot_wiki directory exists it will not be overwritten
 - Will take some time depending on Internet download speed and windows machine, ymmv: 
   - A bit under 3 minutes with 60mbps DL speed and Skylake Corei7 6700
-  - 7 minutes with 2014 Ivy Bridge Corei5 laptop.
+  - 7 minutes with 2014 Ivy Bridge Corei5 laptop
   - Only builds copter and plane wiki sections, other sections or entire wiki left optional as this takes significant additional time.
+  
+- See also: http://ardupilot.org/dev/docs/common-wiki_editing_guide.html
   
