@@ -115,7 +115,7 @@ printf '\n\n\nCopter and plane sections rendered\n'
 printf 'Use make -C ~/ardupilot_wiki/xxxxx to render other sections,\n'
 printf 'where xxxxx is rover/antennatracker/dev/planner/planner2/ardupilot.\n\n'
 
-printf 'RST files are in ~/ardupilot_wiki/xxxx/source/docs\n\n
+printf 'RST files are in ~/ardupilot_wiki/xxxx/source/docs\n\n'
 printf 'and can also be edited with any windows editor pointing to C:\cygwin\home\account\ardupilot_wiki\xxxx\filename.rst\n'
 printf 'where account is your windows user name\n\n'
 
