@@ -13,5 +13,6 @@ Notes:
   - 7 minutes with 2014 Ivy Bridge Corei5 laptop
   - Only builds copter and plane wiki sections, other sections or entire wiki left optional as this takes significant additional time.
   
+- Please consider as beta at this time.
 - See also: http://ardupilot.org/dev/docs/common-wiki_editing_guide.html
   
