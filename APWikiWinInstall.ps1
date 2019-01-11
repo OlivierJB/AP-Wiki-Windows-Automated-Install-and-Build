@@ -57,7 +57,7 @@ logfile=/tmp/wiki-install.`date +%Y-%m-%d.%H:%M:%S`.log
 spinner & >> $logfile 2>&1
 SPID=$! && disown
 
-printf '\nInstalling Ardupilot Wiki and build environment\n'
+printf '\nInstalling Ardupilot Wiki and build environment within Cygwin\n'
 printf '[Open 2nd Cygwin terminal and use tail -f /tmp/*.log for verbose progress output]\n\n'
 printf 'This may take several minutes ...\n\n'
 
@@ -117,7 +117,7 @@ printf 'where xxxxx is rover/antennatracker/dev/planner/planner2/ardupilot.\n\n'
 
 printf 'RST files are in ~/ardupilot_wiki/xxxx/source/docs\n\n
 printf 'and can also be edited with any windows editor pointing to C:\cygwin\home\account\ardupilot_wiki\xxxx\filename.rst\n'
-printf 'where account is your windows user name,\n\n
+printf 'where account is your windows user name\n\n'
 
 printf 'Or make -C ~/ardupilot_wiki all to render all files (Takes some time).\n\n'
 
