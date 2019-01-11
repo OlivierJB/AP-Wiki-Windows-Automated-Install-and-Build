@@ -1,7 +1,7 @@
 # AP-Wiki-Windows-Automated-Install-and-Build
 
-One click install and build of Ardupilot wiki on windows with cygwin
-Download file, right click and select "Run with Powershell"
+One click install and build of Ardupilot wiki on windows with cygwin.
+- Download file, right click and select "Run with Powershell"
 
 Notes:
 - Tested successfully only on win10
