@@ -8,7 +8,7 @@ Import-Module BitsTransfer
 Write-Output "- Downloading cygwin"
 Start-BitsTransfer -Source "https://cygwin.com/setup-x86_64.exe" -Destination "$PSScriptRoot\setup-x86_64.exe"
 
-Write-Output "- Installing Cygwin x64"
+Write-Output "- Installing or updating Cygwin x64"
 Start-Process -NoNewWindow -wait -FilePath $PSScriptRoot\setup-x86_64.exe -ArgumentList "--root=C:\cygwin --no-startmenu --local-package-dir=$env:USERPROFILE\Downloads --site=http://cygwin.mirror.constant.com --packages git,make,python2,zip,mercurial --quiet-mode"
 
 #Run in cygwin:
