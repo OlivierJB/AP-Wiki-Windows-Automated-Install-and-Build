@@ -12,6 +12,5 @@ Notes:
  - Only builds copter and plane wiki sections, other sections or entire wiki left optional as this takes significant additional time.
  - Powershell doesn't like disabled firewall. If script doesn't run and you get a "There are no more endpoints available from the endpoint mapper" error it's very likely to be because of that.
   
-- Please consider as beta at this time.
 - See also: http://ardupilot.org/dev/docs/common-wiki_editing_guide.html
   
