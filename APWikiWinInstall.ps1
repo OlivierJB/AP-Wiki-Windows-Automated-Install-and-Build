@@ -2,6 +2,7 @@
 # Most of the heavy lifting is done within cygwin shell via installdoc.sh
 # Can be run on top of existing cygwin install
 # Right click file and select "Run with Powershell"
+# Windows 10 only
 
 Import-Module BitsTransfer
 
